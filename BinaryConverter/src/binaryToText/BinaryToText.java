@@ -1,9 +1,9 @@
-package binaryToEnglish;
+package binaryToText;
 
-public class BinaryToEnglish
+public class BinaryToText
 {
 
-	public static String binaryToEnglish(String message)
+	public static String binaryToText(String message)
 	{
 		
 		//variables

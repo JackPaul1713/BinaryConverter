@@ -1,4 +1,4 @@
-package englishToBinary;
+package binaryToText;
 
 public class ConvertMessage
 {
@@ -109,10 +109,10 @@ public class ConvertMessage
 			for (int ul = 0; ul < upperCaseAlphabet.length; ul++)
 			{
 				
-				if (refinedMessageArray[rml].equals(upperCaseAlphabet[ul]))
+				if (refinedMessageArray[rml].equals(binaryUpperCaseAlphabet[ul]))
 				{
 				
-					translatedMessage = translatedMessage + binaryUpperCaseAlphabet[ul];
+					translatedMessage = translatedMessage + upperCaseAlphabet[ul];
 					
 				}
 				
@@ -121,11 +121,10 @@ public class ConvertMessage
 			for (int ll = 0; ll < lowerCaseAlphabet.length; ll++)
 			{
 				
-
-				if (refinedMessageArray[rml].equals(lowerCaseAlphabet[ll]))
+				if (refinedMessageArray[rml].equals(binaryLowerCaseAlphabet[ll]))
 				{
 			
-					translatedMessage = translatedMessage + binaryLowerCaseAlphabet[ll];
+					translatedMessage = translatedMessage + lowerCaseAlphabet[ll];
 					
 				}
 				
@@ -134,10 +133,10 @@ public class ConvertMessage
 			for (int nl = 0; nl < numbers.length; nl++)
 			{
 				
-				if (refinedMessageArray[rml].equals(numbers[nl]))
+				if (refinedMessageArray[rml].equals(binaryNumbers[nl]))
 				{
 				
-					translatedMessage = translatedMessage + binaryNumbers[nl];
+					translatedMessage = translatedMessage + numbers[nl];
 					
 				}
 				
@@ -146,10 +145,10 @@ public class ConvertMessage
 			for (int sl = 0; sl < symbols.length; sl++)
 			{
 				
-				if (refinedMessageArray[rml].equals(symbols[sl]))
+				if (refinedMessageArray[rml].equals(binarySymbols[sl]))
 				{
 				
-					translatedMessage = translatedMessage + binarySymbols[sl];
+					translatedMessage = translatedMessage + symbols[sl];
 					
 				}
 				

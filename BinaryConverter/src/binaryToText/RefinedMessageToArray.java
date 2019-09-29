@@ -1,4 +1,4 @@
-package binaryToEnglish;
+package binaryToText;
 
 public class RefinedMessageToArray
 {

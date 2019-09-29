@@ -18,7 +18,7 @@ public class GetMessage
 		if (convDir == 1)
 		{
 			
-			System.out.println("Enter a message.");
+			System.out.println("Enter some text.");
 			System.out.println("");
 			
 		}

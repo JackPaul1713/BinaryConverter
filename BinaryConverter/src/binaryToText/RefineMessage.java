@@ -1,4 +1,4 @@
-package englishToBinary;
+package binaryToText;
 
 public class RefineMessage
 {
@@ -13,13 +13,20 @@ public class RefineMessage
 		
 		//action
 		
-		message = message.replace("~", "");
+		message.replace(" ", "");
 		messageLength = message.length();
 		
-		for (int ml = 0; ml < messageLength; ml++)
+		for (int ml = 0; ml < messageLength; ml = ml + 1)
 		{
 			
-			refinedMessage = refinedMessage + message.substring(ml, ml + 1) + "~";
+			refinedMessage = refinedMessage + message.substring(ml, ml + 1);
+			
+			if ((ml + 1) % 8 == 0)
+			{
+				
+				refinedMessage = refinedMessage + "~";
+				
+			}
 			
 		}
 		

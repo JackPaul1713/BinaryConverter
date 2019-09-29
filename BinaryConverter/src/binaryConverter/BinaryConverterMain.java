@@ -1,7 +1,7 @@
 package binaryConverter;
 
-import binaryToEnglish.*;
-import englishToBinary.*;
+import binaryToText.*;
+import textToBinary.*;
 
 public class BinaryConverterMain
 {
@@ -24,13 +24,13 @@ public class BinaryConverterMain
 		if (convDir == 1)
 		{
 			
-			translatedMessage = EnglishToBinary.englishToBinary(message);
+			translatedMessage = TextToBinary.textToBinary(message);
 			
 		}
 		else if (convDir == 2)
 		{
 			
-			translatedMessage = BinaryToEnglish.binaryToEnglish(message);
+			translatedMessage = BinaryToText.binaryToText(message);
 			
 		}
 		
