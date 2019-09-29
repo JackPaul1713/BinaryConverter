@@ -18,6 +18,7 @@ public class DispResults
 			
 			System.out.println("Your message in english is:");
 			System.out.println(translatedMessage);
+			System.out.println("");
 			
 		}
 		

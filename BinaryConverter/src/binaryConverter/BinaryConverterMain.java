@@ -35,6 +35,7 @@ public class BinaryConverterMain
 		}
 		
 		DispResults.dispResults(convDir, translatedMessage);
+		TerminateProgram.terminateProgram();
 		
 	}
 	

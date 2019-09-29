@@ -19,14 +19,12 @@ public class GetMessage
 		{
 			
 			System.out.println("Enter some text.");
-			System.out.println("");
 			
 		}
 		else if (convDir == 2)
 		{
 			
 			System.out.println("Enter binary code.");
-			System.out.println("");
 			
 		}
 		

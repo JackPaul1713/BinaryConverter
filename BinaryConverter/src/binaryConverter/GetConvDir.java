@@ -17,7 +17,6 @@ public class GetConvDir
 		
 		System.out.println("For text to binary (1)");
 		System.out.println("For binary to text (2)");
-		System.out.println("");
 		responce = intInput.nextInt();
 		System.out.println("");
 		
