@@ -15,7 +15,7 @@ public class DispResults
 		else if (convDir == 2)
 		{
 			
-			System.out.println("Your message in english is:");
+			System.out.println("Your message in text is:");
 			
 		}
 		
