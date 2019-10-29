@@ -13,7 +13,6 @@ public class RefineMessage
 		
 		//action
 		
-		message = message.replace("~", "");
 		messageLength = message.length();
 		
 		for (int ml = 0; ml < messageLength; ml++)
