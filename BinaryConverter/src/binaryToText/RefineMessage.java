@@ -13,7 +13,7 @@ public class RefineMessage
 		
 		//action
 		
-		message.replace(" ", "");
+		message = message.replace(" ", "");
 		messageLength = message.length();
 		
 		for (int ml = 0; ml < messageLength; ml = ml + 1)
