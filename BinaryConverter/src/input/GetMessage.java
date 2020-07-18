@@ -1,40 +1,26 @@
-package binaryConverter;
+package input;
 
 import java.util.Scanner;
 
 public class GetMessage
 {
-
 	public static String getMessage(int convDir)
 	{
-		
-		//variables
-		
+		//var
 		String message = "";
 		Scanner strInput = new Scanner(System.in);
-		
-		//action
-		
+		//act
 		if (convDir == 1)
 		{
-			
 			System.out.println("Enter some text.");
-			
 		}
 		else if (convDir == 2)
 		{
-			
 			System.out.println("Enter binary code.");
-			
 		}
-		
 		message = strInput.nextLine();
 		System.out.println("");
-		
-		//return
-		
+		//ret
 		return(message);
-		
 	}
-	
 }
